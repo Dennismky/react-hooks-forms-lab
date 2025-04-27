@@ -15,6 +15,7 @@ function Filter({ search, onSearchChange, onCategoryChange }) {
         value={search}
         onChange={handleSearchChange}
       />
+
       <select name="filter" onChange={onCategoryChange}>
         <option value="All">Filter by category</option>
         <option value="Produce">Produce</option>
